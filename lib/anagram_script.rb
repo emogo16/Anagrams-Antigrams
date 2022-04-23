@@ -1,5 +1,2 @@
-require_relative('anagram')
-
-anagrams = anagrams.new
-
-puts anagrams
+#!/usr/bin/ruby
+require_relative 'anagram'
