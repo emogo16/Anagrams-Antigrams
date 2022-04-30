@@ -12,8 +12,8 @@ require('pry')
 class Anagrams
   attr_reader :word1, :word2
   def initialize(word1, word2)
-    @word1 = word1.downcase
-    @word2 = word2.downcase
+    @word1 = word1.delete(' ').downcase.gsub(/[!@#$%^&*()-=_+|;':",.<>?']/, '').split("").sort
+    @word2 = word2.delete(' ').downcase.gsub(/[!@#$%^&*()-=_+|;':",.<>?']/, '').split("").sort
   end
   
   def compare_length?()
@@ -37,9 +37,9 @@ class Anagrams
   def anagram_checker?()
     if check_vowels?() == false
       "There is no real words detected!"
-    elsif compare_length == true && check_vowels == true && @word1 == @word2
+    elsif compare_length? == true && check_vowels? == true && @word1 == @word2
     "Results is Anagram!"
-    elsif is_antigram?() == true
+    elsif anti_gram_checker?() == true
     "Results is Antigram!"
     else
     "There is no Anagram detected!"
