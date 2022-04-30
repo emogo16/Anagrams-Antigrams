@@ -1,2 +1,2 @@
 #!/usr/bin/ruby
-require_relative 'anagram'
+require './lib/anagram.rb'
