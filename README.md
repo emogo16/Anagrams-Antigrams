@@ -6,11 +6,11 @@
 #### Anagrams vs Antigrams
 ## Technologies Used
 
-* _Exchnage Rate API_
 * _Git Bash_
 * _VS Code_
-* _HTML_
 * _Ruby
+* _Rspec_
+* _Pry_
 
 ## Description
 
@@ -24,10 +24,13 @@ Then clone this reposiroty to your device.
 
 Then you will open up the folder with VSCode.
 
+Navigate to your root directory and bundle install the project
+
+Run all of the scripts in root directory
 
 ## Known Bugs
 
-There is no user interface at the moment
+There is no known bugs at the moment
 
 ## License
 
