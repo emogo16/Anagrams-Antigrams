@@ -8,13 +8,13 @@
 
 * _Git Bash_
 * _VS Code_
-* _Ruby
+* Ruby
 * _Rspec_
 * _Pry_
 
 ## Description
 
-_This will calculate your wether your two words words are anagrams if they are it will also tell you if they are antigrams. 
+This will calculate your wether your two words words are anagrams if they are it will also tell you if they are antigrams. 
 
 ## Setup/Installation Requirements
 
